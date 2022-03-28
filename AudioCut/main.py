@@ -15,8 +15,7 @@ def main() -> None:
     
     #audioParsing.recordAudioToSpectogram()
     loader = DataLoader("akina")
-    loader.convert("BELAMI_AKINA.wav","train",100)
+    loader.convert("BELAMI_Enguerran.wav","train",100)
     
-
 if __name__ == "__main__":
     main()
